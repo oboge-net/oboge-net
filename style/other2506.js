@@ -1,0 +1,1 @@
+kQ();function kQ(){if(document.body.offsetWidth<=640){var pQ=document.getElementById('header'),menu=document.createElement('div');pQ.insertBefore(menu,pQ.firstChild);zH(menu,iK);}function iK(){var mQ=document.getElementById('menu');for(var i=0;i<3;i++){mQ.appendChild(mQ.removeChild(mQ.firstChild));}}}function zH(e,func,type='click'){if(e){e.addEventListener(type,func,false);}}

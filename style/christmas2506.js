@@ -1,0 +1,1 @@
+var mW="/video/rozhdestvenskie-pesni/",lW="Рождественские песни и видео",p=document.getElementById('wrap'),e;if(location.pathname!=mW){e=document.createElement('A');e.href=mW;e.title=lW;e.innerHTML=lW;}else{e=document.createElement('DIV');e.innerHTML="С Рождеством Христовым";}e.id='christmas';p.insertBefore(e,p.firstChild);

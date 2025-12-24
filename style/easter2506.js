@@ -1,0 +1,1 @@
+var mW="/video/jesus_christ.html",p=document.getElementById('wrap'),e;if(location.pathname!=mW){e=document.createElement('A');e.href=mW;e.title="Фильм: Иисус Христос";}else{e=document.createElement('DIV');}e.innerHTML="Иисус Христос умер<span>за наши грехи</span><span>и воскрес!</span>";e.id='easter';p.insertBefore(e,p.firstChild);
